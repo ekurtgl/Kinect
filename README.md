@@ -7,4 +7,4 @@ C:\\ffmpeg\\bin\\ffmpeg.exe -f dshow -rtbufsize 2048M -i video="Kinect V2 Video 
 
 cmd for .xef:
 
-KSUtil.exe /record "C:\\RSL\\Desktop\\tryxef" 2 "/stream color depth ir body 1> camlog2.txt 2>&1"
+KSUtil.exe /record "C:\\Users\\RSL\\Desktop\\tryxef.xef" 2 "/stream color depth ir body 1> camlog2.txt 2>&1"
