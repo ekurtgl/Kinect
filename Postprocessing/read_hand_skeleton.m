@@ -1,7 +1,6 @@
 clc; clear; close all;
 
 datapath = 'C:\Users\emrek\PycharmProjects\Kinect_Skeleton\skeletons\*.txt';
-plot_on = true;
 files = dir(datapath);
 
 for i = 1:length(files)
@@ -23,5 +22,10 @@ for i = 1:length(files)
         continue
     end
     content = content(1:end-1);
-    [first_hand_data, second_hand_data, connections] = plot3D_hand(content, plot_on);
+    [first_hand_data, second_hand_data, connections] = get_hand_data(content);
+    plot3D_hand(first_hand_data, second_hand_data, connections);
 end
+
+
+
+

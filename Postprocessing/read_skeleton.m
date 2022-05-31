@@ -27,7 +27,8 @@ for i = 1:length(files)
     handState = sktData(227:228);
 
     skeleton3DPosition = skeletonLocation(:, 2:4);
-    plot3D_skeleton(skeleton3DPosition)
+    index = get_body_conn();
+    plot3D_skeleton(skeleton3DPosition, index)
     
     for j = 1:size(skeleton3DPosition, 1)-3
         scatter3(skeleton3DPosition(j, 1), skeleton3DPosition(j, 2), skeleton3DPosition(j, 3), 'r', 'filled')
