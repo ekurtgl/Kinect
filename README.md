@@ -1,6 +1,6 @@
 # Kinect
 
-This repository contains to necessary tools to record Kinect v2 data (color, depth, IR, skeleton) and post-process to extract the skeleton. Kinect does not provide finger skeleton data per se. [Mediapipe Hands](https://google.github.io/mediapipe/solutions/hands) framework is employed to extract the finger level tracking. Body and hand skeletons are registered in the post-processing phase.
+This repository contains to necessary tools to record Kinect v2 data (color, depth, IR, skeleton) and post-process to extract the skeleton. Kinect does not provide finger skeleton data per se. [Mediapipe Hands](https://google.github.io/mediapipe/solutions/hands) framework is employed to extract the finger level tracking. Body and hand skeletons are registered in the post-processing phase. `This repository is still under development. Any contributions are more than welcome!` 
 
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/66868163/185696939-f9d18ed2-6fed-4d68-9741-2606fcc3833b.gif">
