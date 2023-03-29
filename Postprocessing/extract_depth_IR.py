@@ -17,6 +17,8 @@ for i, f in enumerate(files):
 
     if not os.path.exists(save_folder):
         os.mkdir(save_folder)
+    else:
+        continue
 
     cmd = subprocess.Popen('Xef2Mat.exe --no-gui "' + f + '" "' + save_folder + '" ', shell=True, cwd=app_path)
     cmd.wait()
