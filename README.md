@@ -19,8 +19,9 @@ Get ffmpeg at [https://drive.google.com/file/d/1IoRfP8M8woUCttDEOQ8UfE8a0MnPfKNm
 
 * Shell command for recording .mp4:
 
-`C:\\ffmpeg\\bin\\ffmpeg.exe -f dshow -rtbufsize 2048M -i video="Kinect V2 Video Sensor" -t 2 "C:\\Users\\RSL\\Desktop\\try.mp4"
-C:\\Users\\emrek\\Desktop\\Technical\\ffmpeg\\bin\\ffmpeg.exe -f dshow -rtbufsize 2048M -i video="Kinect V2 Video Sensor" -t 2 "C:\\Users\\emrek\\Desktop\\try.mp4"`
+`C:\\ffmpeg\\bin\\ffmpeg.exe -f dshow -rtbufsize 2048M -i video="Kinect V2 Video Sensor" -t 2 "C:\\Users\\RSL\\Desktop\\try.mp4"`
+
+<!---`C:\\Users\\emrek\\Desktop\\Technical\\ffmpeg\\bin\\ffmpeg.exe -f dshow -rtbufsize 2048M -i video="Kinect V2 Video Sensor" -t 2 "C:\\Users\\emrek\\Desktop\\try.mp4"`--->
 
 
 * IR and Depth frames are extracted using this [repo](https://github.com/raysworld/Xef2Mat).
